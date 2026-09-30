@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+	<title></title>
+</head>
+<body>
+<!-- Navigation Bar -->
+  <header class="navbar">
+    <a href="#" class="nav-brand">
+      <!-- Wave / Net Icon -->
+<img src="Screenshot 2026-09-29 222345.png">
+    </a>
+    <nav>
+      <ul class="nav-links">
+        <li><button id="btn-home" class="nav-btn active" onclick="switchTab('home')">Home</button></li>
+        <li><button id="btn-rewards" class="nav-btn" onclick="switchTab('rewards')">Rewards</button></li>
+        <li><button id="btn-about" class="nav-btn" onclick="switchTab('about')">About</button></li>
+        <li><button id="btn-contact" class="nav-btn" onclick="switchTab('contact')">Contact</button></li>
+      </ul>
+    </nav>
+<!-- Sections -->
+<section id="home"></section>
+<section id="rewards"></section>
+<section id="about"></section>
+<section id="contact"></section>
+
+<a href="#profile" class="profile-btn" title="Profile">
+      <svg class="profile-icon" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="7" r="4"/>
+        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+      </svg>
+    </a>
+  </div>
+  </header>
+
+  <!-- Hero Content -->
+  <main class="hero">
+    <div class="hero-content">
+      
+      <!-- Brand Section -->
+      <div class="brand-hero-block">
+        <!-- Main Wave/Net Icon -->
+        <img src="Screenshot 2026-09-29 224301.png">
+        <div class="brand-text">
+      </div>
+
+    </div>
+
+    <!-- Right Side Net Overlay Graphic -->
+    <div class="bg-net-container">
+      <img src="Screenshot 2026-09-29 222649.png">
+      </svg>
+    </div>
+  </main>
+
+ <section id="how-it-works">
+    <h2 class="section-title">How It works</h2>
+
+    <div class="steps-grid">
+      
+      <!-- STEP 1 CARD -->
+      <div class="step-card" data-step="1">
+        <div class="step-icon-wrapper">
+          <!-- Viewfinder Frame with Ghost Net Illustration -->
+          <svg viewBox="0 0 200 200" fill="none" width="180" height="180">
+            <!-- Frame Corners -->
+            <path d="M 15 55 L 15 15 L 55 15" stroke="#ffffff" stroke-width="10" stroke-linecap="square"/>
+            <path d="M 145 15 L 185 15 L 185 55" stroke="#ffffff" stroke-width="10" stroke-linecap="square"/>
+            <path d="M 15 145 L 15 185 L 55 185" stroke="#ffffff" stroke-width="10" stroke-linecap="square"/>
+            <path d="M 145 185 L 185 185 L 185 145" stroke="#ffffff" stroke-width="10" stroke-linecap="square"/>
+            
+            <!-- Net Graphic inside camera frame -->
+            <path d="M 45 80 Q 100 110 155 80" stroke="#000000" stroke-width="4.5" fill="none"/>
+            <path d="M 45 120 Q 100 150 155 120" stroke="#000000" stroke-width="4.5" fill="none"/>
+            <path d="M 70 65 Q 100 110 70 145" stroke="#000000" stroke-width="4.5" fill="none"/>
+            <path d="M 130 65 Q 100 110 130 145" stroke="#000000" stroke-width="4.5" fill="none"/>
+            <!-- Ring loops on corners -->
+            <circle cx="45" cy="80" r="6" stroke="#000" stroke-width="3" fill="#61c4f5"/>
+            <circle cx="155" cy="80" r="6" stroke="#000" stroke-width="3" fill="#61c4f5"/>
+            <circle cx="45" cy="120" r="6" stroke="#000" stroke-width="3" fill="#61c4f5"/>
+            <circle cx="155" cy="120" r="6" stroke="#000" stroke-width="3" fill="#61c4f5"/>
+          </svg>
+        </div>
+        <h3 class="step-card-title">Take a Picture</h3>
+        <p class="step-card-desc">We take a picture of a ghost net if it's on the water. If it's under, use a waterproof camera and transfer it to your phone</p>
+      </div>
+
+      <!-- STEP 2 CARD -->
+      <div class="step-card" data-step="2">
+        <div class="step-icon-wrapper">
+          <!-- Large Bold Map Pin Pinpoint -->
+          <svg viewBox="0 0 100 130" fill="none" width="130" height="170">
+            <path d="M 50 5 C 22.4 5 0 27.4 0 55 C 0 90 50 125 50 125 C 50 125 100 90 100 55 C 100 27.4 77.6 5 50 5 Z" fill="#000000"/>
+            <circle cx="50" cy="48" r="20" fill="#61c4f5"/>
+          </svg>
+        </div>
+        <h3 class="step-card-title">Location</h3>
+        <p class="step-card-desc">You add your current location by GPS for it to be sent</p>
+      </div>
+
+      <!-- STEP 3 CARD -->
+      <div class="step-card" data-step="3">
+        <div class="step-icon-wrapper">
+          <!-- Paper Plane Send Arrow Icon -->
+          <svg viewBox="0 0 160 140" fill="none" width="160" height="140">
+            <path d="M 10 75 L 150 10 L 95 130 L 70 85 L 10 75 Z" fill="#000000"/>
+            <polygon points="70,85 150,10 95,85" fill="#333333"/>
+          </svg>
+        </div>
+        <h3 class="step-card-title">Send it</h3>
+        <p class="step-card-desc">Send it to the conservationists for collection</p>
+      </div>
+
+      <!-- STEP 4 CARD -->
+      <div class="step-card" data-step="4">
+        <div class="step-icon-wrapper">
+          <!-- Thick Bold Checkmark Icon -->
+          <svg viewBox="0 0 140 120" fill="none" width="160" height="130">
+            <path d="M 15 60 L 50 95 L 125 15" stroke="#000000" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <h3 class="step-card-title">It’s done</h3>
+        <p class="step-card-desc">The picture has been sent and you earn points for it.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Profile Modal -->
+  <div class="modal-overlay" id="profileModal">
+    <div class="modal-card">
+      <button class="modal-close-btn" class="closeModal">&times;</button>
+      <div class="modal-header">Your CastOFF Profile</div>
+      <div class="modal-body">
+        <p><strong>Status:</strong> Active Diver / Eco Sentinel 🌊</p>
+        <p style="margin-top: 8px;"><strong>Rewards Points:</strong> 350 pts</p>
+        <p style="margin-top: 8px;"><strong>Nets Reported:</strong> 4 Ghost Nets logged</p>
+      </div>
+      <button class="modal-action-btn closeModal">Close Profile</button>
+    </div>
+  </div>
+
+  <!-- Report Net Interactive Modal -->
+  <div class="modal-overlay" id="reportModal">
+    <div class="modal-card">
+      <button class="modal-close-btn" class="closeModal">&times;</button>
+      <div class="modal-header">Report Ghost Net</div>
+      <div class="modal-body">
+        <p>Ready to protect the ocean? Upload your photo and GPS coordinates to send directly to local reef conservation teams.</p>
+        <div style="margin-top: 15px; padding: 15px; background: #e0f4ff; border-radius: 10px; border: 2px dashed #00b0ff; text-align: center;">
+          📷 Click or Tap to Select Photo
+        </div>
+      </div>
+      <button class="modal-action-btn" id="submitReportBtn">Submit & Earn +50 Points</button>
+    </div>
+  </div>
+
+
+<div id="rewards-page" class="tab-page">
+    <div class="rewards-container">
+      <div class="rewards-left">
+        <div class="rewards-label">Rewards</div>
+        <h2 class="rewards-title">Send the Pictures,<br>and get rewards</h2>
+        <p class="rewards-desc">
+          Earn points by taking pictures of ghost nets. Those points can be used to increase rank and exchange for rewards.
+        </p>
+      </div>
+
+      <div class="rewards-right">
+        <!-- Coupons Reward Card -->
+        <div class="reward-card" onclick="redeemReward('Coupons', 300)">
+          <div class="reward-card-left">
+            <div class="reward-icon-box">
+              <!-- Ticket / Coupon Vector Illustration -->
+              <svg width="100" height="55" viewBox="0 0 100 55" fill="none">
+                <rect width="100" height="55" rx="6" fill="#a81a29"/>
+                <!-- Scalloped edges -->
+                <circle cx="0" cy="27.5" r="7" fill="#00ffeb"/>
+                <circle cx="100" cy="27.5" r="7" fill="#00ffeb"/>
+                <rect x="12" y="8" width="76" height="39" rx="3" fill="none" stroke="#ffffff" stroke-width="2" stroke-dasharray="4 3"/>
+                <text x="50" y="32" fill="#ffffff" font-family="'Fredoka', sans-serif" font-weight="700" font-size="12" text-anchor="middle">SAVE 10%</text>
+              </svg>
+            </div>
+            <div class="reward-text-box">
+              <h3>Coupons</h3>
+              <p>Redeems points for coupons</p>
+            </div>
+          </div>
+          <div class="reward-pts-badge">300 pts</div>
+        </div>
+
+        <!-- Merchandise Reward Card -->
+        <div class="reward-card" onclick="redeemReward('Merchandise', 150)">
+          <div class="reward-card-left">
+            <div class="reward-icon-box">
+              <!-- Blue T-Shirt Merchandise Illustration -->
+              <svg width="85" height="75" viewBox="0 0 100 90" fill="none">
+                <path d="M 30,10 L 10,25 L 20,42 L 30,35 L 30,82 L 70,82 L 70,35 L 80,42 L 90,25 L 70,10 C 60,20 40,20 30,10 Z" fill="#0015ff" stroke="#000000" stroke-width="3"/>
+              </svg>
+            </div>
+            <div class="reward-text-box">
+              <h3>Merchandise</h3>
+              <p>Exchange points for merchandises</p>
+            </div>
+          </div>
+          <div class="reward-pts-badge">150 pts</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ABOUT SECTION -->
+  <main class="about-container">
+    <p class="about-subtitle">About CastOFF</p>
+    <h1 class="about-main-title">MAKE SPOTTING NETS EASIER</h1>
+
+    <div class="about-grid">
+      <!-- Left Column -->
+      <div class="about-card">
+        <h2>What is CastOFF?</h2>
+        <p>
+          CastOFF connect users to conservationists by sending pictures of the ghost net 
+          to the conservationists for it to be cleaned up. This allows the ocean to be 
+          cleaned faster and minimize risks before it get worse
+        </p>
+      </div>
+
+      <!-- Right Column -->
+      <div class="about-card">
+        <h2>Why do we do this?</h2>
+        <p>
+          According to statistics, 500,000 to 1 million tons of abandoned, lost, or discarded 
+          fishing gear (ghost nets) enter the world's oceans each year. That is why I made 
+          this app to make the oceans healthy again.
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <!-- MAIN CONTACT SECTION -->
+  <main class="contact-section">
+    <div class="contact-left">
+      <p class="contact-subtitle">Contacts</p>
+      <h1 class="contact-title">LET'S HELP THE OCEAN TOGETHER</h1>
+    </div>
+
+    <div class="contact-card">
+      <form>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" class="form-input">
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" class="form-input">
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" class="form-textarea"></textarea>
+        </div>
+      </form>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <!-- Col 1: Logo -->
+    <div class="footer-col">
+      <div class="footer-logo-block">
+        <img src="">
+        <div>
+          <img src="Screenshot 2026-09-30 143853.png">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Col 2: Quick Links -->
+    <div class="footer-col">
+      <h3 class="footer-title">Quick Links</h3>
+      <ul class="footer-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Rewards</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contacts</a></li>
+      </ul>
+    </div>
+
+    <!-- Col 3: Keep in touch -->
+    <div class="footer-col">
+      <h3 class="footer-title">Keep in touch</h3>
+      <div class="info-list">
+        <div class="info-item">
+          <svg class="info-icon" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2">
+            <rect x="2" y="4" width="20" height="16" rx="2"/>
+            <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+          </svg>
+          <span>xwlaw08@gmail.com</span>
+        </div>
+        <div class="info-item">
+          <svg class="info-icon" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+          </svg>
+          <span>0192868892</span>
+        </div>
+        <div class="info-item">
+          <svg class="info-icon" viewBox="0 0 24 24" fill="#000">
+            <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+          </svg>
+          <span>INTI Subang</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Col 4: Follow on -->
+    <div class="footer-col">
+      <h3 class="footer-title">Follow on:</h3>
+      <div class="social-icons">
+        <!-- Instagram -->
+        <svg class="social-icon" viewBox="0 0 24 24">
+          <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+        </svg>
+
+        <!-- Facebook -->
+        <svg class="social-icon" viewBox="0 0 24 24">
+          <path d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z"/>
+        </svg>
+
+        <!-- YouTube -->
+        <svg class="social-icon" viewBox="0 0 24 24">
+          <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+        </svg>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
